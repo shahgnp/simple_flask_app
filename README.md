@@ -39,6 +39,13 @@ docker build -t simple-flask-app .
 ```bash
 docker run -p 5000:5000   -e APP_NAME="HelloWorld"   -e APP_ENV="production"   -e APP_AUTHOR="Jane Doe"   -e SECRET_KEY="super-secret-xyz"   simple-flask-app
 ```
+## Provision a server for deployment (AWS EC2 Preferred)
+
+Step 1: Go to AWS console (AWS Sandbox or any)
+
+Step 2: Create a publicly rechable EC2 instance
+
+Step 3: Install Docker on the EC2 instance.
 
 # To run it on GitHub Actions
 
@@ -76,7 +83,7 @@ Add each of these:
 
 ---
 
-### Variables — for non-sensitive config
+### Variables
 
 Same page → **Variables tab** → **New repository variable**.
 
@@ -85,4 +92,3 @@ Same page → **Variables tab** → **New repository variable**.
 | `EC2_HOST` | Your EC2 public IP or domain, e.g. `54.123.45.67` |
 
 ---
-run1
