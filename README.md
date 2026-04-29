@@ -3,8 +3,9 @@
 # To run the app on local python runtime
 ## Step 1: Create a Python venv
 
-```python
-python3 -m venv .venv
+```bash
+python3 -m venv .venv # For linux/Mac
+python -m venv .venv # For Windows
 ```
 
 Activate the venv
@@ -22,8 +23,9 @@ pip install -r requirements.txt
 
 ## Step 3: Run the server
 
-```python
-python3 app.py
+```bash
+python3 app.py # For linux/Mac
+python app.py # For windows
 ```
 
 # To run the app on local docker
