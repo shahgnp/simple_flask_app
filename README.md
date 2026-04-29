@@ -45,6 +45,8 @@ Step 1: Go to AWS console (AWS Sandbox or any)
 
 Step 2: Create a publicly rechable EC2 instance
 
+Step 3: The instance should allow HTTP traffic from anywhere
+
 Step 3: Install Docker on the EC2 instance.
 
 # To run it on GitHub Actions
@@ -92,3 +94,5 @@ Same page → **Variables tab** → **New repository variable**.
 | `EC2_HOST` | Your EC2 public IP or domain, e.g. `54.123.45.67` |
 
 ---
+
+# A
