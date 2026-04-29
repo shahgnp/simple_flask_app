@@ -97,4 +97,6 @@ Same page → **Variables tab** → **New repository variable**.
 
 ---
 
-# A
+# To view the output (if deployed on a public VM/ EC2)
+
+Go to you browser, hit http://<Public-IP>
